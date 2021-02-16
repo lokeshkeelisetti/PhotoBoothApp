@@ -7,11 +7,22 @@
 }
 
 #capturedImages{
-    height: 260px;
+    height: 330px;
+    display:flex;
+    flex-direction: row;
     overflow-x: scroll;
     white-space: nowrap;
+    background-color: gray;
 }
 
 .image{
     display: inline-block;
+}
+
+#player{
+    height:fit-content
+}
+
+body{
+    background-color: rgb(181, 222, 235);
 }
