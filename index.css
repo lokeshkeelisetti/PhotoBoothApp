@@ -1,0 +1,17 @@
+#capture{
+    height: fit-content;
+}
+
+.capture{
+    text-align: center;
+}
+
+#capturedImages{
+    height: 260px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.image{
+    display: inline-block;
+}
